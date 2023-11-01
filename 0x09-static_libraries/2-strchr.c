@@ -7,12 +7,12 @@
  */
 char *_strchr(char *s, char c)
 {
-        int p = 0;
+	int p = 0;
 
-        for (; s[p] >= '\0'; p++)
-        {
-                if (s[p] == c)
-                        return (&s[p]);
-        }
-        return (0);
+	for (; s[p] >= '\0'; p++)
+	{
+		if (s[p] == c)
+			return (&s[p]);
+	}
+	return (0);
 }

@@ -1,0 +1,1 @@
+gcc -no-pie -std=gnu89 101-hello_holberton.o -o hello
